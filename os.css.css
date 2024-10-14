@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('bdofos.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-color: #ffffff; /* Set your desired background color */
+            border: 1px solid black;
+            padding: 20px;
+            opacity: 0.8;
+    text-align: center;
+}
+
+textarea {
+    width: 80%;
+    height: 100px;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #fd1414;
+    box-shadow: 2px 2px 8px rgba(229, 237, 75, 0.1);
+}
+
+#fileInput {
+    margin: 10px 0;
+}
+
+#copiedDataDisplay {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 80%;
+    overflow-x: auto;
+    word-wrap: break-word;
+}
